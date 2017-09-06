@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.test.inova.fashion.main.ItemGridActivity">
+
+<android.support.v7.widget.Toolbar
+    android:id="@+id/EYE_WEAR"
+    android:layout_width="370dp"
+    android:layout_height="32dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginTop="0dp">
+
+</android.support.v7.widget.Toolbar>
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.test.inova.fashion.fragments.ItemGridFragment"
+        android:layout_width="361dp"
+        android:layout_height="494dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="155dp"
+        android:layout_height="28dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/fragment2"
+        app:layout_constraintLeft_toRightOf="@+id/spinner"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/EYE_WEAR" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="155dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/fragment2"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/EYE_WEAR" />
+
+
+</android.support.constraint.ConstraintLayout>

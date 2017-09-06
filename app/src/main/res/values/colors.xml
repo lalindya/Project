@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0c2fef</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f494b4</color>
+    <color name="FUCHSIA">#FF00FF</color>
+    <color name="facebook">#3b5998</color>
+    <color name="google">#DD4B39</color>
+    <color name="instergram">#fbad50</color>
+    <color name="meaasge">#161b28</color>
+
+    <color name="colorPrimary1">#F50057</color>
+    <color name="colorPrimaryDark1">#F50057</color>
+    <color name="colorAccent1">#FF4081</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="red">#9c0d38</color>
+    <color name="addtocart">#219653</color>
+    <color name="wishlist">#2f80ed</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

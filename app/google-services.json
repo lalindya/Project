@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "174317391356",
+    "firebase_url": "https://fashion-2b2ac.firebaseio.com",
+    "project_id": "fashion-2b2ac",
+    "storage_bucket": "fashion-2b2ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174317391356:android:37fc4499b4b534a4",
+        "android_client_info": {
+          "package_name": "com.test.inova.fashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174317391356-2v5gk988vhk87pj97g4vuleg3c2vbgpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.test.inova.fashion",
+            "certificate_hash": "7a57f860af5a03b2cd798287a916b209829bd564"
+          }
+        },
+        {
+          "client_id": "174317391356-hob4po8ubavgruknjbhten6r2gnqpq50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXmAxfd-U8DkRsnHNC9-738ICVmQjPy6M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174317391356-hob4po8ubavgruknjbhten6r2gnqpq50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

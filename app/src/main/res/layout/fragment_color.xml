@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/wrapper_layout"
+android:background="@android:color/holo_green_light"
+android:orientation="horizontal">
+tools:context="com.test.inova.fashion.fragments.colorFragment">
+</LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="565dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/imagesa"
+            android:onClick="favorites"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/navigation_float"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_margin="16dp"
+                android:src="@drawable/like"
+                app:backgroundTint="@color/common_google_signin_btn_text_dark_default" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/share_float"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_margin="16dp"
+                android:src="@drawable/ic_if_broken_heart_383175"
+                app:backgroundTint="@color/common_google_signin_btn_text_dark_default" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/bookmark_float"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="86dp"
+
+                android:src="@drawable/ic_share_black_24dp"
+                app:backgroundTint="@color/common_google_signin_btn_text_dark_default" />
+
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ic_local_offer_black_24dp"
+            android:onClick="bookmark"
+            android:tint="@color/colorAccent"
+            app:fabSize="normal"/>
+
+            <!-- <ImageView
+                 android:layout_width="47dp"
+                 android:layout_height="44dp"
+                 android:src="@drawable/bookmark"
+                 android:background="@drawable/floating_btn_color"
+                 android:layout_gravity="bottom|right"
+                 android:layout_margin="@dimen/fab_margin"
+                 android:layout_marginLeft="90dp"
+                 android:onClick="bookmark" />-->
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>
