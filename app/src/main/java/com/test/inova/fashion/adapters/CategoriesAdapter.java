@@ -78,23 +78,7 @@ public class CategoriesAdapter extends RecyclerView.Adapter<CategoriesAdapter.Vi
 
         @Override
         public void onClick(View view) {
-            int position = getAdapterPosition();
-            ListPojo productPojo = new ListPojo();
-            productPojo = categorytList.get(position);
-
-            if (position == 0) {
-                Intent myIntent = new Intent(view.getContext(), FirstPageActivity.class);
-                context.startActivity(myIntent);
-            }
-            if (position == 1) {
-                Intent myIntent1 = new Intent(view.getContext(), ItemGridActivity.class);
-                context.startActivity(myIntent1);
-            }
-            if (position == 2) {
-                Intent MyIntent2 = new Intent(view.getContext(), MensActivity.class);
-                context.startActivity(MyIntent2);
-
-            }
+            
         }
     }
 }
